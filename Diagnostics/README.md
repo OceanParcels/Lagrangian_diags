@@ -2,5 +2,5 @@
 
 ## Distance
 ### Cumulative distance
-* Method 1 : 
-* Method 2 : 
+* Method 1 : cumulative_distance_method01.ipynb
+* Method 2 : cumulative_distance_method02.ipynb
