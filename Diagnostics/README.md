@@ -1,4 +1,4 @@
-# List of diagnsotics
+# List of diagnostics
 
 ## Distance
 ### Cumulative distance
