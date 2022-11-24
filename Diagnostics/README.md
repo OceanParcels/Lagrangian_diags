@@ -6,4 +6,4 @@
 * Method 2 : cumulative_distance_method02.ipynb
 
 ### Gaussian Kernel Density Estimation
-* Method 1 : GKDE_method01.ipynb
+* Method 1 : [GKDE_method01.ipynb](GKDE_method01.ipynb)
