@@ -10,8 +10,9 @@
 
 ### Gaussian Kernel Density Estimation
 * Method 1 : [GKDE_method01.ipynb](GKDE_method01.ipynb)
-  * test 
-** Alternative methods:
-*** Histograms
-** Papers where the method is applied:
-*** 
+  * When to use it:
+   * Example
+  * Alternative methods:
+   * Histograms
+  * Papers where the method is applied:
+   * example
