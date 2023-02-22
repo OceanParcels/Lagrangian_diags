@@ -16,3 +16,6 @@
     * Histograms
   * Papers where the method is applied:
     * Example
+
+## Lyapunov exponents
+* Mthod 1: https://github.com/LauraGomezNavarro/OceanParcels_Lyapunov
