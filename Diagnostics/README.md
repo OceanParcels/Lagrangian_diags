@@ -11,7 +11,7 @@ $$ AD(x,y,t=T) = r(t=T) - r(t=0) $$
 
 $$ CD(x,y,t=T) = r(t=T) - r(t=0) $$
 
-, where $$ r(t) = f(x,y) $$ and is the position of the particle at time, t.
+, where $ r(t) = f(x,y) $ and is the position of the particle at time, t.
 
 ## Spatial particle distribution 
 ### Histograms
