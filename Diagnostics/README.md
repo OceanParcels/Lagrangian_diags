@@ -10,6 +10,7 @@ $$ AD(x,y,t=T) = r(t=T) - r(t=0) $$
 * Method 1 : [cumulative_distance_method01.ipynb](cumulative_distance_method01.ipynb)
 
 $$ CD(x,y,t=T) = r(t=T) - r(t=0) $$
+
 ; where $$ r(t) = f(x,y) $$ and is the position of the particle at time, t.
 
 ## Spatial particle distribution 
