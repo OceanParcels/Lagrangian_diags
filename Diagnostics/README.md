@@ -15,6 +15,7 @@ $$ CD(x,y,t=T) = r(t=T) - r(t=0) $$
 
 ## Spatial particle distribution 
 ### Histograms
+* Method 1 : [2DHistogram_method01.ipynb](2DHistogram_method01.ipynb)
 
 ### Gaussian Kernel Density Estimation
 * Method 1 : [GKDE_method01.ipynb](GKDE_method01.ipynb)
@@ -24,6 +25,7 @@ $$ CD(x,y,t=T) = r(t=T) - r(t=0) $$
     * Histograms
   * Papers where the method is applied:
     * Example
+* Method 2 : [GKDE_method02.ipynb](GKDE_method02.ipynb)
 
 ## Lyapunov exponents
-* Mthod 1: https://github.com/LauraGomezNavarro/OceanParcels_Lyapunov
+* Method 1: https://github.com/LauraGomezNavarro/OceanParcels_Lyapunov
