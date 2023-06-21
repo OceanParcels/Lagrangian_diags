@@ -1,17 +1,17 @@
 # List of diagnostics
 
 ## Distance
-### Absolute distance
+### Absolute distance (AD)
 * Method 1 : [absolute_distance_method01.ipynb](absolute_distance_method01.ipynb)
 
 $$ AD(x,y,t=T) = r(t=T) - r(t=0) $$
 
-### Cumulative distance
+### Cumulative distance (CD)
 * Method 1 : [cumulative_distance_method01.ipynb](cumulative_distance_method01.ipynb)
 
 $$ CD(x,y,t=T) = r(t=T) - r(t=0) $$
 
-, where $r(t) = f(x,y)$ and is the position of the particle at time, t.
+, where $r(t) = f(x,y)$ and is the position of the particle at time, t.  T is the total time period considered for the distance calculation.
 
 ## Spatial particle distribution 
 ### Histograms
