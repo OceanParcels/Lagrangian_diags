@@ -15,6 +15,8 @@ Given how deeply you want to get involved, we offer 2 options
 2. Become developer and add changes via developer branch
 Please contact us in case you would like to contribute via this option.
 
+### Committing via branches reminder:
+
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
