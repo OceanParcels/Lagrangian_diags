@@ -116,7 +116,7 @@ def center_of_mass_spread(X, Y, X0=None, Y0=None, M_x=None, M_y=None):
         D_z = np.sum(np.power( Z \
                                - np.tile(np.atleast_2d(Z0).T,(1, n)) \
                                - np.tile(np.atleast_2d(M_z), (m, 1)),2),
-                     axis=1) / (n-1)
+                     axis=0) / (n-1)
         return D_z
 
     D_x = _estimate_dispersion(X, X0, M_x)
