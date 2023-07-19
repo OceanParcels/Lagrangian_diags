@@ -19,7 +19,7 @@ Given how deeply you want to get involved, we offer 2 options
 Please contact us in case you would like to contribute via this option.
 
 ### Option 1: Fork repository
-1. Fork repository, either by using [GitHub Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop) or via [command line] (https://docs.github.com/en/get-started/quickstart/fork-a-repo#fork-an-example-repository)
+1. Fork repository, either by using [GitHub Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop) or via [command line](https://docs.github.com/en/get-started/quickstart/fork-a-repo#fork-an-example-repository)
 2. Create a working branch
 3. Change existing code or add new code - do not forget to regularly commit your changes!
 4. Create a pull request (and potentially link to issue if you are solving one)
