@@ -18,7 +18,18 @@ Given how deeply you want to get involved, we offer 2 options
 2. Become developer and add changes via developer branch
 Please contact us in case you would like to contribute via this option.
 
-### Committing via branches reminder:
+### Reminder of how to commit using branches:
+The steps you need to do ONLY the first time when you create the branch are in brackets ()
+
+* git init
+* git branch [to check in which branch you are]
+* (git branch <branch_name>)
+* git checkout <branch_name>
+* git branch [to verify you are now in the correct branc]
+* git add <new_or_changed_file>
+* git commit -m "<short_message_on_change>"
+* git push origin <branch_name>
+* got to https://github.com/OceanParcels/Lagrangian_diags/tree/main and click on pull request to add your pull request (appears at top of page).  You can mention somebody to review your pull request.
 
 ## Contributors
 
