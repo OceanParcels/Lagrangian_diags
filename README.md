@@ -26,15 +26,19 @@ Please contact us in case you would like to contribute via this option.
 * (git branch <branch_name>)
 * git checkout <branch_name>
 * git branch [to verify you are now in the correct branc]
-4. Change existing code or add new code - do not forget to regularly commit your changes!
+3. Change existing code or add new code - do not forget to regularly commit your changes!
 * git add <new_or_changed_file>
 * git commit -m "<short_message_on_change>"
 * git push origin <branch_name>
-5. Create a pull request (and potentially link to issue if you are solving one)
+4. Create a pull request (and potentially link to issue if you are solving one)
 * got to https://github.com/OceanParcels/Lagrangian_diags/tree/main and click on pull request to add your pull request (appears at top of page).  You can mention somebody to review your pull request.
   
 ### Option 2: Get developer branch
-Same as in Option 1, but starting directly at point 3.
+1. Get added by project owner to project as collaborator
+2. Clone repository
+3. Create developer branch (identical to step 2 in option 1)
+4. Change existing code or add new code (identical to step 3 in option 1)
+5. Create pull request (identical to step 4 in option 1)
 
 
 ## Contributors
