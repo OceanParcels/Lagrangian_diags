@@ -4,7 +4,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Side-project lead by Siren and Laura to work on Lagrangian diagnostics.
-This is WORK IN PROGRESS, EVERYONE IS WELCOME TO CONTRIBUTE!
+This is WORK IN PROGRESS, EVERYONE IS WELCOME TO CONTRIBUTE! 
 
 ## Goal of the project
 Starting from the general question how to quantify differences in Lagrangian statistics between 
