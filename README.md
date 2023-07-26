@@ -18,18 +18,28 @@ Given how deeply you want to get involved, we offer 2 options
 2. Become developer and add changes via developer branch
 Please contact us in case you would like to contribute via this option.
 
-### Reminder of how to commit using branches:
-The steps you need to do ONLY the first time when you create the branch are in brackets ()
-
+### Option 1: Fork repository
+1. Fork repository, either by using [GitHub Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop) or via [command line](https://docs.github.com/en/get-started/quickstart/fork-a-repo#fork-an-example-repository)
+2. Create a working branch
 * git init
 * git branch [to check in which branch you are]
 * (git branch <branch_name>)
 * git checkout <branch_name>
 * git branch [to verify you are now in the correct branc]
+3. Change existing code or add new code - do not forget to regularly commit your changes!
 * git add <new_or_changed_file>
 * git commit -m "<short_message_on_change>"
 * git push origin <branch_name>
+4. Create a pull request (and potentially link to issue if you are solving one)
 * got to https://github.com/OceanParcels/Lagrangian_diags/tree/main and click on pull request to add your pull request (appears at top of page).  You can mention somebody to review your pull request.
+  
+### Option 2: Get developer branch
+1. Get added by project owner to project as collaborator
+2. Clone repository
+3. Create developer branch (identical to step 2 in option 1)
+4. Change existing code or add new code (identical to step 3 in option 1)
+5. Create pull request (identical to step 4 in option 1)
+
 
 ## Contributors
 
