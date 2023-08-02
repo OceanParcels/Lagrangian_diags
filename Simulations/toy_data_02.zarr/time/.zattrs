@@ -1,0 +1,11 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "traj",
+        "obs"
+    ],
+    "axis": "T",
+    "calendar": "standard",
+    "long_name": "",
+    "standard_name": "time",
+    "units": "seconds since 2021-01-01T00:30:00.000000000"
+}
