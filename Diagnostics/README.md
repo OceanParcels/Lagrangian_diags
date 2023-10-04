@@ -1,5 +1,11 @@
 # List of diagnostics
 
+
+## Getting started - how this repo works
+For each diagnostic we provide a general description in this readme, including information on (i) when (not) to use it, (ii) how to calculate it (there may be different methods/python implementations), (iii) where it has been applied before (i.e. reference to already published papers that make use of the diagnostic), (iv) what could be alternative/ similar diagnostics.
+An example application is also given in a complementary jupyter notebook.
+The code for the calculation itself is provided as a python function.
+
 ## Distance
 
 Methods 
