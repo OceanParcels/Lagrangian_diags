@@ -64,6 +64,7 @@ $$ CD(x,y,t=T) = r(t=T) - r(t=0) $$
     * Histograms
   * Papers where the method is applied:
     * Example
+  * Other suggestions of use
 * Method 2 : [GKDE_method02.ipynb](GKDE_method02.ipynb)
 
 ## Lyapunov exponents
