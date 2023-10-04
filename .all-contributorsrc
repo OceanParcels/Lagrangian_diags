@@ -1,0 +1,45 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "LauraGomezNavarro",
+      "name": "Laura Gomez Navarro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20359692?v=4",
+      "profile": "https://github.com/LauraGomezNavarro",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "jimena-medinarubio",
+      "name": "Jimena Medina",
+      "avatar_url": "https://avatars.githubusercontent.com/u/101462540?v=4",
+      "profile": "https://github.com/jimena-medinarubio",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "sruehs",
+      "name": "sruehs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33282992?v=4",
+      "profile": "https://github.com/sruehs",
+      "contributions": [
+        "ideas",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "Lagrangian_diags",
+  "projectOwner": "OceanParcels"
+}
