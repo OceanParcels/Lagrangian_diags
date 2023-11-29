@@ -4,6 +4,8 @@
 # list see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
+import datetime
+
 # -- Path setup --------------------------------------------------------------
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -17,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "Basic Sphinx Example Project"
-copyright = "2022, Read the Docs core team"
-author = "Read the Docs core team"
+project = "Lagrangian diagnostics"
+copyright = f'{datetime.datetime.now().year}, The OceanParcels Team'
+author = 'The OceanParcels Team'
 
 
 # -- General configuration ---------------------------------------------------

@@ -2,6 +2,8 @@ name: Lagrangian_diags
 channels:
   - conda-forge
 dependencies:
+  - python>=3.8
+
   # Docs
   - ipython
   - numpydoc
