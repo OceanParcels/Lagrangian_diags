@@ -1,6 +1,6 @@
 # Lagrangian_diags
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Side-project lead by Siren and Laura to work on Lagrangian diagnostics.
@@ -52,6 +52,7 @@ Please contact us in case you would like to contribute via this second option.
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/LauraGomezNavarro"><img src="https://avatars.githubusercontent.com/u/20359692?v=4?s=100" width="100px;" alt="Laura Gomez Navarro"/><br /><sub><b>Laura Gomez Navarro</b></sub></a><br /><a href="https://github.com/OceanParcels/Lagrangian_diags/commits?author=LauraGomezNavarro" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/jimena-medinarubio"><img src="https://avatars.githubusercontent.com/u/101462540?v=4?s=100" width="100px;" alt="Jimena Medina"/><br /><sub><b>Jimena Medina</b></sub></a><br /><a href="https://github.com/OceanParcels/Lagrangian_diags/commits?author=jimena-medinarubio" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sruehs"><img src="https://avatars.githubusercontent.com/u/33282992?v=4?s=100" width="100px;" alt="sruehs"/><br /><sub><b>sruehs</b></sub></a><br /><a href="#ideas-sruehs" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/OceanParcels/Lagrangian_diags/commits?author=sruehs" title="Code">💻</a> <a href="#projectManagement-sruehs" title="Project Management">📆</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.uu.nl/staff/BAltena"><img src="https://avatars.githubusercontent.com/u/64000582?v=4?s=100" width="100px;" alt="Bas Altena"/><br /><sub><b>Bas Altena</b></sub></a><br /><a href="https://github.com/OceanParcels/Lagrangian_diags/commits?author=dicaearchus" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
