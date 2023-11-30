@@ -11,6 +11,11 @@ dependencies:
   - geopandas
   - matplotlib
 
+  # Linting
+  - flake8>=2.1.0
+  - pre_commit
+  - pydocstyle
+
   # Docs
   - ipython
   - numpydoc

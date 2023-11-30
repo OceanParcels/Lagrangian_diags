@@ -1,5 +1,5 @@
-Lagrangian_diags documentation
-===================================
+Lagrangian_diags
+================
 
 Welcome to the documentation of Lagrangian diagnostics.
 
