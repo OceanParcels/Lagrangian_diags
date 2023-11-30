@@ -1,5 +1,5 @@
-Lagrangian_diags documentation
-===================================
+Lagrangian_diags
+================
 
 Welcome to the documentation of Lagrangian diagnostics.
 
@@ -7,4 +7,6 @@ Welcome to the documentation of Lagrangian diagnostics.
   :maxdepth: 3
   :caption: Library
 
-  modules
+   Home <self>
+   Modules <modules>
+   Tutorials <tutorials>

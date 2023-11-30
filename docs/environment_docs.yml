@@ -10,8 +10,9 @@ dependencies:
   - pyproj
   - geopandas
   - matplotlib
-
-  # Docs
+  - flake8>=2.1.0
+  - pre_commit
+  - pydocstyle
   - ipython
   - numpydoc
   - nbsphinx
