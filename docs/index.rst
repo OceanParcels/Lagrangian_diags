@@ -7,4 +7,6 @@ Welcome to the documentation of Lagrangian diagnostics.
   :maxdepth: 3
   :caption: Library
 
-  modules
+   Home <self>
+   Modules <modules>
+   Tutorials <tutorials>
