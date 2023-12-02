@@ -81,7 +81,10 @@ numpydoc_validation_checks = {
 html_static_path = ['_static']
 
 html_theme_options = {
-    "logo": "lagrangian-diag-logo.png",
+    "logo": {
+        "image_light": "lagrangian-diag-logo.png",
+        "image_dark": "lagrangian-diag-logo.png",
+    },
     "use_edit_page_button": True,
     "github_url": "https://github.com/OceanParcels/Lagrangian_diag",
     "icon_links": [
