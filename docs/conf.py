@@ -40,7 +40,7 @@ extensions = [
 
 sphinx_gallery_conf = {
      'examples_dirs': '../Diagnostics',   # path to your example scripts
-     'gallery_dirs': 'auto_examples',  # path to where to save gallery generated output
+     'gallery_dirs': '_build/auto_examples',  # path to where to save gallery generated output
 }
 
 nbsphinx_thumbnails = {
