@@ -32,10 +32,16 @@ extensions = [
     'sphinx.ext.autodoc',
     "sphinx.ext.mathjax",
     "sphinx.ext.napoleon",
+    'sphinx_gallery.gen_gallery',
     'sphinx_gallery.load_style',
     "myst_parser",
     "numpydoc",
 ]
+
+sphinx_gallery_conf = {
+     'examples_dirs': '../Diagnostics',   # path to your example scripts
+     'gallery_dirs': 'auto_examples',  # path to where to save gallery generated output
+}
 
 nbsphinx_thumbnails = {
     'Diagnostics/GKDE_method01': '_static/lagrangian-diag-logo.png',
