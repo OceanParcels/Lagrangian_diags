@@ -3,7 +3,7 @@ Functions
 
 cumulative distance functions
 -----------------------------
-.. automodule:: Diagnostics.Functions.cumulatice_distance_01
+.. automodule:: Diagnostics.Functions.cumulative_distance_01
     :members:
 
 flock measures
