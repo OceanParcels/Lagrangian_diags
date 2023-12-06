@@ -28,13 +28,24 @@ author = 'The OceanParcels Team'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    "nbsphinx",
     'sphinx.ext.autodoc',
     "sphinx.ext.mathjax",
     "sphinx.ext.napoleon",
+    'sphinx_gallery.load_style',
     "myst_parser",
-    "nbsphinx",
     "numpydoc",
 ]
+
+nbsphinx_thumbnails = {
+    'Diagnostics/GKDE_method01': '_static/lagrangian-diag-logo.png',
+    'Diagnostics/GKDE_method02': '_static/lagrangian-diag-logo.png',
+    'Diagnostics/absolute_distance_method01': '_static/lagrangian-diag-logo.png',
+    'Diagnostics/center_of_mass_dispersion_method01': '_static/lagrangian-diag-logo.png',
+    'Diagnostics/center_of_mass_displacement_method01': '_static/lagrangian-diag-logo.png',
+    'Diagnostics/cumulative_distance_method01': '_static/lagrangian-diag-logo.png',
+    'Diagnostics/mediod_method01': '_static/lagrangian-diag-logo.png',
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
