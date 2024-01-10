@@ -20,16 +20,27 @@ Please contact us in case you would like to contribute via this second option.
 
 ### Option 1: Fork repository
 1. Fork repository, either by using [GitHub Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop) or via [command line](https://docs.github.com/en/get-started/quickstart/fork-a-repo#fork-an-example-repository)
-2. Create a working branch
+   
+3. Create a working branch
+   
 initializing GIT on your local machine:
+
 ```git init```
+
 check branch on your local machine:
+
 ```git branch```
+
 create new branch (branch_name) on your local machine:
+
 ```git branch <branch_name>```
+
 switch into the new branch:
+
 ```git checkout <branch_name>```
-4. Change existing code or add new code - do not forget to regularly commit your changes!
+
+
+5. Change existing code or add new code - do not forget to regularly commit your changes!
 * git add <new_or_changed_file>
 * git commit -m "<short_message_on_change>"
 * git push origin <branch_name> 
