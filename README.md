@@ -23,7 +23,7 @@ Please contact us in case you would like to contribute via this second option.
    
 3. Create a working branch
    
-initializing GIT on your local machine:
+- initializing GIT on your local machine:
 
 ```git init```
 
