@@ -56,6 +56,18 @@ Please contact us in case you would like to contribute via the first option.
 5. Create an additional pull request to add your feature branch to the original repository
 
 
+## Style guide
+All python code should be written following the PEP8 style guide as closely as possible. Functions should be implemented following the numpy doctstring convention, and - to enable a good documentation - should contain the following sections:
+- Short Summary (one line information what function does)
+- Parameters
+- Returns
+- Extended Summary (more detailed information on what function does, could include mathematical equations)
+- See Also (similar diagnostics, alternative methods for same disgnostic)
+- Notes (information on when (not) to use the function) 
+- References (literature where method is introduced)
+- Examples (refer to notebook and give minimum example) 
+
+
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
