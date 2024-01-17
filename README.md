@@ -13,7 +13,9 @@ new info: https://www.mindmeister.com/map/2233459860?t=C9g9yYis4P), and test and
 those diagnostic via python code.
 
 ## How to contribute
-Given how deeply you want to get involved, we offer 2 options
+You are welcome to contribute by improving the code for already existing methods or by adding new code for additional methods and diagnostics. In general, we aim to provide the code for the different methods as functions (see here: [./Diagnostics/Functions](https://github.com/OceanParcels/Lagrangian_diags/tree/main/Diagnostics/Functions)), that are then applied and explained in jupyter notebooks (see here: [./Diagnostics/](https://github.com/OceanParcels/Lagrangian_diags/tree/main/Diagnostics/)) by making use of the output of a set of very basic exemplary particle simulations (to be found here: [./Simulations/](https://github.com/OceanParcels/Lagrangian_diags/tree/main/Simulations)). Please let us know in case the particle trajectory sets are inadequate for your diagnostic, so that we can adjust or expand our data sets. 
+
+On the technical side, given how deeply you want to get involved, we offer 2 options for contributing:
 1. Become developer and add changes via developer branch
 2. Fork repository and send pull request to main branch
 Please contact us in case you would like to contribute via the first option.
@@ -25,25 +27,25 @@ Please contact us in case you would like to contribute via the first option.
 2. Clone repository
    
 3. Create a working branch
--  ```git init``` (initializing GIT on your local machine)
+-  ```git init``` (initialize GIT on your local machine)
 -  ```git branch``` (check branch on your local machine)
--  ```git branch <branch_name>``` (create new branch "branch_name" on your local machine)
--  ```git checkout <branch_name>``` (switch into the new branch)
--  ```git push origin <branch_name>``` (create remote version of branch)
+-  ```git branch <branch_name>``` (create new working branch "branch_name" on your local machine)
+-  ```git checkout <branch_name>``` (switch into the new working branch)
+-  ```git push origin <branch_name>``` (create remote version of working branch)
 
 4. Change existing code or add new code - do not forget to regularly commit your changes!
 - do changes in local working branch
 - ```git add <new_or_changed_file>``` (add files that you changed to stage them for version tracking)
-- ```git commit -m "<short_message_on_change>``` (commit staged changes to update local branch)
-- ```git push origin <branch_name>``` (updating remote feature branch)
+- ```git commit -m "<short_message_on_change>``` (commit staged changes to update local working branch)
+- ```git push origin <branch_name>``` (update remote version of working branch)
 - repeat as often as required
   
 5. Create a pull request (and potentially link to issue if you are solving one)
 - ```git checkout main``` (switch to main branch on local machine)
 - ```git pull main``` (update local main branch to capture potential new features of other contributors)
 - ```git checkout <branch_name>``` (switch back to local working branch)
-- ```git merge main``` (merges latest changes from local main into local working branch, eventually need to solve conflicts if other contributors worked on same files; ensure that the merged changes are commited to the local working branch)
-- ```git push origin <branch_name>``` (updating remote fetaure branch with latest changes)
+- ```git merge main``` (merge latest changes from local main into local working branch, eventually need to solve conflicts if other contributors worked on same files; ensure that the merged changes are commited to the local working branch)
+- ```git push origin <branch_name>``` (update remote working branch with latest changes)
 - create a pull request to add new features from <branch_name> to main: go to https://github.com/OceanParcels/Lagrangian_diags/tree/main and click on pull request to add your pull request (appears at top of page).  You can mention somebody to review your pull request.
   
 ### Option 2: Fork repository
@@ -52,6 +54,18 @@ Please contact us in case you would like to contribute via the first option.
 3. Change existing code or add new code (identical to step 4 in option 1)
 4. Create pull request (identical to step 5 in option 1)
 5. Create an additional pull request to add your feature branch to the original repository
+
+
+## Style guide
+All python code should be written following the PEP8 style guide as closely as possible. Functions should be implemented following the numpy doctstring convention, and - to enable a good documentation - should contain the following sections:
+- Short Summary (one line information what function does)
+- Parameters
+- Returns
+- Extended Summary (more detailed information on what function does, could include mathematical equations)
+- See Also (similar diagnostics, alternative methods for same disgnostic)
+- Notes (information on when (not) to use the function) 
+- References (literature where method is introduced)
+- Examples (refer to notebook and give minimum example) 
 
 
 ## Contributors
