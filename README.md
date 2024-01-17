@@ -13,9 +13,9 @@ new info: https://www.mindmeister.com/map/2233459860?t=C9g9yYis4P), and test and
 those diagnostic via python code.
 
 ## How to contribute
-You are welcome to contribute by improving the code for already existing methods or by adding new code for additional methods and diagnostics. In general, we aim to provide the code for the different methods as functions (see here: [./Diagnostics/Functions](https://github.com/OceanParcels/Lagrangian_diags/tree/dev-SR/Diagnostics/Functions)), that are then applied and explained in jupyter notebooks by making use of our basic exemplary particle simulations. Please let us know in case the particle trajectory set is inadequate for your diagnostic, so that we can adjust or expand our data set. 
+You are welcome to contribute by improving the code for already existing methods or by adding new code for additional methods and diagnostics. In general, we aim to provide the code for the different methods as functions (see here: [./Diagnostics/Functions](https://github.com/OceanParcels/Lagrangian_diags/tree/main/Diagnostics/Functions)), that are then applied and explained in jupyter notebooks (see here: [./Diagnostics/](https://github.com/OceanParcels/Lagrangian_diags/tree/main/Diagnostics/)) by making use of the output of a set of very basic exemplary particle simulations (to be found here: [./Simulations/](https://github.com/OceanParcels/Lagrangian_diags/tree/main/Simulations)). Please let us know in case the particle trajectory sets are inadequate for your diagnostic, so that we can adjust or expand our data sets. 
 
-On the technical side, given how deeply you want to get involved, we offer 2 options
+On the technical side, given how deeply you want to get involved, we offer 2 options for contributing:
 1. Become developer and add changes via developer branch
 2. Fork repository and send pull request to main branch
 Please contact us in case you would like to contribute via the first option.
