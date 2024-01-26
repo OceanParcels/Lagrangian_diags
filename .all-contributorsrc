@@ -32,6 +32,16 @@
       "profile": "https://github.com/sruehs",
       "contributions": [
         "ideas",
+        "code",
+        "projectManagement"
+      ]
+    },
+    {
+      "login": "dicaearchus",
+      "name": "Bas Altena",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64000582?v=4",
+      "profile": "https://www.uu.nl/staff/BAltena",
+      "contributions": [
         "code"
       ]
     }
