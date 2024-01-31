@@ -3,6 +3,19 @@ from osgeo import osr
 
 def dist_meter(lon_1, lon_2, lat_1, lat_2, radius=None):
     """ calculate the distance between two locations
+
+    Parameters
+    ----------
+    lon_1, lat_1 : float, unit=degrees
+        location of point 1
+    lon_2, lat_2 : float, unit=degrees
+        location of point 2
+    radius : bool, , unit=meters, default=None
+        estimate of the radius of the Earth
+
+    Returns
+    -------
+    float, unit=meters
     """
     Δlon, Δlat = lon_2 - lon_1, lat_2 - lat_1
     lat_mean = (lat_1+lat_2)/2
@@ -25,7 +38,6 @@ def haversine(Δlat, Δlon, lat, radius=None):
     Returns
     -------
     float, unit=meters
-        distance
     """
     Δlat, Δlon, lat = np.deg2rad(Δlat), np.deg2rad(Δlon), np.deg2rad(lat)
 
