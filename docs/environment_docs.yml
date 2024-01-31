@@ -20,6 +20,3 @@ dependencies:
   - pydata-sphinx-theme
   - sphinx-autobuild
   - myst-parser
-  - pip:
-      - nbsphinx
-      - sphinx_gallery
