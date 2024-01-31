@@ -57,7 +57,7 @@ Please contact us in case you would like to contribute via the first option.
 
 
 ## Style guide
-All python code should be written following the PEP8 style guide as closely as possible. Functions should be implemented following the numpy doctstring convention, and - to enable a good documentation - should contain the following sections:
+All python code should be written following the [PEP8 style guide](https://peps.python.org/pep-0008/) as closely as possible. Functions should be implemented following the [numpy doctstring convention](https://numpydoc.readthedocs.io/en/latest/format.html), and - to enable a good documentation - should contain the following sections:
 - Short Summary (one line information what function does)
 - Parameters
 - Returns
