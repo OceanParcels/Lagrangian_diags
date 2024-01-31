@@ -1,7 +1,6 @@
 # Lagrangian_diags
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![Documentation Status](https://readthedocs.org/projects/lagrangian-diags/badge/?version=latest)](https://lagrangian-diags.readthedocs.io/en/latest/?badge=latest)
 
 Side-project lead by Siren and Laura to work on Lagrangian diagnostics.
 This is WORK IN PROGRESS, EVERYONE IS WELCOME TO CONTRIBUTE! 
