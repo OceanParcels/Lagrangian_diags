@@ -60,6 +60,15 @@ extensions = [
     "numpydoc",
 ]
 
+nbsphinx_thumbnails = {
+    'tutorials/GKDE_method01': '_static/GKDE_01_thumbnail.png',
+    'tutorials/GKDE_method02': '_static/GKDE_02_thumbnail.png',
+    'tutorials/absolute_distance_method01': '_static/lagrangian-diag-logo.png',
+    'tutorials/center_of_mass_dispersion_method01': '_static/center_of_mass_dispersion_method01_thumbnail.png',
+    'tutorials/center_of_mass_displacement_method01': '_static/center_of_mass_displacement_method01_thumbnail.png',
+    'tutorials/cumulative_distance_method01': '_static/cumulative-distance-thumbnail.png'
+}
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
