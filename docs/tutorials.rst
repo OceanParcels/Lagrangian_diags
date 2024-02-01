@@ -3,18 +3,22 @@ Tutorials
 
 Finite-Time Lyapunov Exponent
 -----------------------------
+.. nbgallery::
+   :name: tutorial-ftle
+
+   tutorials/FTLE_method.ipynb
 
 Gaussian Kernel Density Estimation methods
 ------------------------------------------
 .. nbgallery::
-   :caption: Gaussian kernel density estimation
    :name: tutorial-gkde
 
-   Diagnostics/GKDE_method01.ipynb
-   Diagnostics/GKDE_method02.ipynb
+   tutorials/GKDE_method01.ipynb
+   tutorials/GKDE_method02.ipynb
 
+Flock distance methods
+----------------------
 .. nbgallery::
-   :caption: Flock distance methods
    :name: tutorial-distance
 
    tutorials/absolute_distance_method01
