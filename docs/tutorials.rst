@@ -6,7 +6,6 @@ Tutorials
    :name: tutorial-gkde
 
    tutorials/GKDE_method01
-   tutorials/GKDE_method02
 
 .. nbgallery::
    :caption: Flock distance methods
