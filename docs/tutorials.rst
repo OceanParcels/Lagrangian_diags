@@ -1,6 +1,9 @@
 Tutorials
 =========
 
+Finite-Time Lyapunov Exponent
+-----------------------------
+
 Gaussian Kernel Density Estimation methods
 ------------------------------------------
 .. nbgallery::
