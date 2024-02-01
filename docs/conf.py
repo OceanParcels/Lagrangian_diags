@@ -15,6 +15,28 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('..'))
 
+from urllib.parse import quote
+
+def linkcode_resolve(domain, info):
+    # print(f"domain={domain}, info={info}")
+    if domain != 'py':
+        return None
+    if not info['module']:
+        return None
+    filename = quote(info['module'].replace('.', '/'))
+    if not filename.startswith("tests"):
+        filename = "src/" + filename
+    if "fullname" in info:
+        anchor = info["fullname"]
+        anchor = "#:~:text=" + quote(anchor.split(".")[-1])
+    else:
+        anchor = ""
+
+    # github
+    result = "https://<github>/<user>/<repo>/blob/master/%s.py%s" % (filename, anchor)
+    # print(result)
+    return result
+
 # -- Project information -----------------------------------------------------
 
 project = 'lagrangian diags'
