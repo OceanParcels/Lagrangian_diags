@@ -8,5 +8,5 @@ Welcome to the documentation of Lagrangian diagnostics.
   :caption: Library
 
    Home <self>
-   Functions <functions>
    Tutorials <tutorials>
+   Functions <functions>
