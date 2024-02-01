@@ -88,7 +88,33 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #
 html_theme = 'pydata_sphinx_theme'
 
+# The name of an image file (within the static path) to use as favicon of the
+ # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
+ # pixels large.
+ html_favicon = "favicon.ico"
+
+ # numpydoc support
+ # ----------------
+ numpydoc_class_members_toctree = False  # https://stackoverflow.com/a/73294408
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+html_theme_options = {
+     "logo": {
+         "image_light": "lagrangian-diag-logo.png",
+         "image_dark": "lagrangian-diag-logo.png",
+     },
+     "use_edit_page_button": True,
+     "github_url": "https://github.com/OceanParcels/Lagrangian_diag",
+     "icon_links": [
+         {
+             "name": "Conda Forge",
+             "url": "https://anaconda.org/conda-forge/parcels",  # required
+             "icon": "fa-solid fa-box",
+             "type": "fontawesome",
+         }
+     ]
+ }
