@@ -53,7 +53,7 @@ nbsphinx_thumbnails = {
     'Diagnostics/mediod_method01': '_static/lagrangian-diag-logo.png',
 }
 
-numpydoc_show_class_members = False
+# numpydoc_show_class_members = False
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
