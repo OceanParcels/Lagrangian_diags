@@ -1,0 +1,10 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "traj",
+        "obs"
+    ],
+    "axis": "X",
+    "long_name": "",
+    "standard_name": "longitude",
+    "units": "degrees_east"
+}
