@@ -44,13 +44,10 @@ sphinx_gallery_conf = {
 }
 
 nbsphinx_thumbnails = {
-    'Diagnostics/GKDE_method01': '_static/lagrangian-diag-logo.png',
-    'Diagnostics/GKDE_method02': '_static/lagrangian-diag-logo.png',
-    'Diagnostics/absolute_distance_method01': '_static/lagrangian-diag-logo.png',
-    'Diagnostics/center_of_mass_dispersion_method01': '_static/lagrangian-diag-logo.png',
-    'Diagnostics/center_of_mass_displacement_method01': '_static/lagrangian-diag-logo.png',
-    'Diagnostics/cumulative_distance_method01': '_static/lagrangian-diag-logo.png',
-    'Diagnostics/mediod_method01': '_static/lagrangian-diag-logo.png',
+    'tutorials/absolute_distance_method01': '_static/lagrangian-diag-logo.png',
+    'tutorials/center_of_mass_dispersion_method01': '_static/lagrangian-diag-logo.png',
+    'tutorials/center_of_mass_displacement_method01': '_static/lagrangian-diag-logo.png',
+    'tutorials/cumulative_distance_method01': '_static/lagrangian-diag-logo.png',
 }
 
 # numpydoc_show_class_members = False
