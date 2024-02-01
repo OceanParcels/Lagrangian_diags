@@ -44,10 +44,13 @@ sphinx_gallery_conf = {
 }
 
 nbsphinx_thumbnails = {
+    'tutorials/GKDE_method01': '_static/GKDE-01-thumbnail.png',
+    'tutorials/GKDE_method02': '_static/GKDE-02-thumbnail.png',
     'tutorials/absolute_distance_method01': '_static/lagrangian-diag-logo.png',
-    'tutorials/center_of_mass_dispersion_method01': '_static/lagrangian-diag-logo.png',
-    'tutorials/center_of_mass_displacement_method01': '_static/lagrangian-diag-logo.png',
-    'tutorials/cumulative_distance_method01': '_static/lagrangian-diag-logo.png',
+    'tutorials/center_of_mass_dispersion_method01': '_static/center-mass-dispersion-thumbnail.png',
+    'tutorials/center_of_mass_displacement_method01': '_static/center-mass-displacement-thumbnail.png',
+    'tutorials/cumulative_distance_method01': '_static/cumulative-distance-thumbnail.png',
+    'tutorials/medioid_method01': '_static/medioid-thumbnail.png'
 }
 
 # numpydoc_show_class_members = False
