@@ -89,13 +89,13 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'pydata_sphinx_theme'
 
 # The name of an image file (within the static path) to use as favicon of the
- # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
- # pixels large.
- html_favicon = "favicon.ico"
+# docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
+# pixels large.
+html_favicon = "favicon.ico"
 
- # numpydoc support
- # ----------------
- numpydoc_class_members_toctree = False  # https://stackoverflow.com/a/73294408
+# numpydoc support
+# ----------------
+numpydoc_class_members_toctree = False  # https://stackoverflow.com/a/73294408
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
