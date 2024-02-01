@@ -1,15 +1,17 @@
 Tutorials
 =========
 
+Gaussian Kernel Density Estimation methods
+------------------------------------------
 .. nbgallery::
-   :caption: Gaussian Kernel Density Estimation methods
    :name: tutorial-density
 
    tutorials/GKDE_method01
    tutorials/GKDE_method02
 
+Flock distance methods
+----------------------
 .. nbgallery::
-   :caption: Flock distance methods
    :name: tutorial-distance
 
    tutorials/absolute_distance_method01
