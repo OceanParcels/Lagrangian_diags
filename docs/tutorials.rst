@@ -1,20 +1,19 @@
 Tutorials
 =========
 
-Gaussian Kernel Density Estimation methods
-------------------------------------------
 .. nbgallery::
-   :name: tutorial-density
+   :caption: Gaussian kernel density estimation
+   :name: tutorial-gkde
 
-   tutorials/GKDE_method01
-   tutorials/GKDE_method02
+   Diagnostics/GKDE_method01.ipynb
+   Diagnostics/GKDE_method02.ipynb
 
-Flock distance methods
-----------------------
 .. nbgallery::
+   :caption: Flock distance methods
    :name: tutorial-distance
 
-   tutorials/absolute_distance_method01
-   tutorials/center_of_mass_dispersion_method01
-   tutorials/center_of_mass_displacement_method01
-   tutorials/cumulative_distance_method01
+   Diagnostics/absolute_distance_method01.ipynb
+   Diagnostics/center_of_mass_dispersion_method01.ipynb
+   Diagnostics/center_of_mass_displacement_method01.ipynb
+   Diagnostics/cumulative_distance_method01.ipynb
+   Diagnostics/mediod_method01.ipynb
