@@ -3,6 +3,7 @@ Simulations/out-*
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb
 Diagnostics/.ipynb_checkpoints
 
 *.pyc
