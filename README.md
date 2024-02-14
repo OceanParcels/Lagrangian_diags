@@ -53,7 +53,7 @@ Please contact us in case you would like to contribute via the first option.
 2. Create developer branch (identical to step 3 in option 1)
 3. Change existing code or add new code (identical to step 4 in option 1)
 4. Create pull request (identical to step 5 in option 1)
-5. Create an additional pull request to add your feature branch to the original repository
+5. Create an additional pull request to add your feature branch to the original repository (make sure to check/merge updates from main in the original repository with procedure similar to step 5 in option 1)
 
 
 ## Style guide
