@@ -33,12 +33,12 @@ def mediod(X, Y, spherical=False, robust=True):
         if spherical:
             D = dist_meter(X_A, X_B, Y_A, Y_B)
         else:
-            D = np.sqrt(np.nansum((X_A - X_B)**2, (Y_A - Y_B)**2))
+            D = np.sqrt((X_A - X_B)**2 + (Y_A - Y_B)**2)
         if robust:
-            err += np.nanmedian(D, axis=1)
+            err += np.median(D, axis=1)
         else:
-            err += np.nanmean(D, axis=1)
-    id = np.nanargmin(err)
+            err += np.mean(D, axis=1)
+    id = np.argmin(err)
     return id
 
 def center_of_mass_displacement(X, Y, X0=None, Y0=None):
@@ -269,8 +269,6 @@ def normalized_cumulative_lagrangian_separation(X, Y, X_ref=None, Y_ref=None,
     L_cum = np.cumsum(L, axis=1)
 
     c = np.divide(np.sum(D, axis=1), np.sum(L_cum, axis=1))
-    if leader_id is not None:
-        c = np.insert(c, leader_id, 1)
     return c
 
 def relative_horizontal_transport_deviation(X, Y, X_ref=None, Y_ref=None,
