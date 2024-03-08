@@ -1,6 +1,6 @@
 import numpy as np
 import numpy.linalg as LA
-from Functions.DisplacementComputation import Haversine_displacement as displacement
+from Functions.cumulative_distance_01 import dist_km as displacement
 
 
 def ftle_brunton_2009(J, Td):
