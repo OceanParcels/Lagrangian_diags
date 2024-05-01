@@ -8,7 +8,7 @@ def dist_km(lona, lonb, lata, latb):
     source: https://stackoverflow.com/questions/19412462/getting-distance-between-two-points-based-on-latitude-longitude
     """
     
-    R = 6373.0     # approximate radius of earth in km
+    R = 6371.0     # approximate radius of earth in km
 
     lat1 = radians(lata)
     lon1 = radians(lona)
