@@ -1,6 +1,12 @@
 # Contributing
 
-## Adding a notebook
+## Project structure
+
+You are welcome to contribute by improving the code for already existing methods or by adding new code for additional methods and diagnostics. In general, we aim to provide the code for the different methods as functions (see here: [./Diagnostics/Functions](https://github.com/OceanParcels/Lagrangian_diags/tree/main/Diagnostics/Functions)), that are then applied and explained in jupyter notebooks (see here: [./Diagnostics/](https://github.com/OceanParcels/Lagrangian_diags/tree/main/Diagnostics/)) by making use of the output of a set of very basic example particle simulations (to be found here: [./Simulations/](https://github.com/OceanParcels/Lagrangian_diags/tree/main/Simulations)). Please let us know in case the particle trajectory sets/simulations are inadequate for your diagnostic, so that we can adjust or expand our data sets.
+
+If the provided example particle trajectory datasets or simulations are inadequate for your diagnostic, please inform us so we can update or expand the datasets.
+
+### Adding a notebook
 
 ```{note}
 TODO: Add instructions on how to add a new notebook.
@@ -10,18 +16,44 @@ TODO: Add instructions on how to add a new notebook.
   - Whether to include data files in the repository
 ```
 
-## Development setup
+## Development workflow
 
 To get started contributing to Lagrangian Diags:
 
-- `fork the repo <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository>`\_
-- Clone your fork to your local machine
-- Install this projects dependencies so that you can build the documentation.
+1. [Fork the repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository)
 
-Assuming you have conda installed, you can create a development environment called `diags` with the following command:
+2. Clone the repository and `cd` into the project folder
+
+```
+git clone <fork_url>
+cd <project_folder>
+```
+
+3. Create a working branch
+
+```
+git branch <branch_name>
+git checkout <branch_name>
+```
+
+4. Change existing code or add new code - do not forget to regularly commit your changes!
+
+5. Push your changes and make a pull request
+
+```
+git push -u origin <branch_name>
+```
+
+```{note}
+If you have write access to the Lagrangian Diags repository, you don't have to create a fork. You just need to clone the repository and create a working branch. Just make sure that your working branch has a good naming so that others are aware of its contents (e.g., `<your_initials>-dispersion`).
+```
+
+### OPTIONAL: Install documentation dependencies
+
+If you want to build the documentation locally, you will need to install the dependencies in the `docs/environment_docs.yml` file. You can create this environment (called `diag-docs` with the following command):
 
 ```bash
-conda env create -n diags -f docs/environment_docs.yml
+conda env create -n diag-docs -f docs/environment_docs.yml
 ```
 
 Then you can build the documentation with:
@@ -30,9 +62,35 @@ Then you can build the documentation with:
 sphinx-autobuild docs docs/_build
 ```
 
+### Style guide and pre-commit tooling
+
+This project has automated workflows to help with code quality and adhering to Python style conventions (this tooling is detailed in the `.pre-commit-config.yaml` file). To use this tooling locally (optional, as this is already run automatically in the cloud), you will need to install the pre-commit package and then install the hooks. You can do this by running the following commands:
+
+```
+conda install -c conda-forge pre-commit
+pre-commit install
+```
+
+```{note}
+TODO: Add all items in this section to pre-commit tooling, and then trim down this section (no need to excessively document it if its enforced by the tooling).
+
+---
+
+All python code should be written following the [PEP8 style guide](https://peps.python.org/pep-0008/) as closely as possible. Functions should be implemented following the [numpy doctstring convention](https://numpydoc.readthedocs.io/en/latest/format.html), and - to enable a good documentation - should contain the following sections:
+
+- Short description (one line of information saying what the function does)
+- Parameters
+- Returns
+- Extended description (more detailed information on what the function does, could include mathematical equations)
+- See also (similar diagnostics, alternative methods for same diagnostic)
+- Notes (information on when (not) to use the function)
+- References (literature where method is introduced)
+- Examples (refer to notebook and give minimum example)
+```
+
 ## Credits
 
-Thank you to our contributors who make this project possible:
+Thank you to our contributors who make this project possible 🎉
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->

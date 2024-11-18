@@ -1,5 +1,5 @@
 Lagrangian Diagnostics
-================
+======================
 
 .. note::
     TODO: Insert short paragraph here detailing the motivation behind the project, and the goals of the project.
