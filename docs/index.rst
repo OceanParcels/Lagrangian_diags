@@ -1,7 +1,8 @@
-Lagrangian_diags
+Lagrangian Diagnostics
 ================
 
-Welcome to the documentation of Lagrangian diagnostics, a community for researchers to share and discuss Lagrangian analysis techniques and tooling.
+.. note::
+    TODO: Insert short paragraph here detailing the motivation behind the project, and the goals of the project.
 
 .. grid:: 1 2 2 2
     :gutter: 4
@@ -13,7 +14,7 @@ Welcome to the documentation of Lagrangian diagnostics, a community for research
         :class-card: intro-card
         :shadow: md
 
-        The core of Lagrangian diagnostics are the analysis notebooks. They contain
+        The core of Lagrangian Diagnostics are the analysis notebooks. They contain
         examples and explanations of of the different techniques and tools.
 
         +++
@@ -26,25 +27,6 @@ Welcome to the documentation of Lagrangian diagnostics, a community for research
 
             To the notebooks
 
-    .. grid-item-card::  Contribute
-        :img-top: _static/group.svg
-        :class-card: intro-card
-        :shadow: md
-
-        Want to contribute to Lagrangian diagnostics? The contributing guide details
-        development environment setup, provides guidelines on what information to include
-        in notebooks you create.
-
-        +++
-
-        .. button-ref:: contributing/index
-            :ref-type: ref
-            :click-parent:
-            :color: secondary
-            :expand:
-
-            To the contributing guide
-
     .. grid-item-card::  Roadmap
         :img-top: _static/map.svg
         :class-card: intro-card
@@ -55,7 +37,7 @@ Welcome to the documentation of Lagrangian diagnostics, a community for research
 
         +++
 
-        .. button-ref:: contributing/roadmap
+        .. button-ref:: roadmap
             :ref-type: ref
             :click-parent:
             :color: secondary
@@ -63,24 +45,28 @@ Welcome to the documentation of Lagrangian diagnostics, a community for research
 
             To the roadmap
 
-    .. .. grid-item-card::  Developer guide
-    ..     :img-top: _static/index_contribute.svg
-    ..     :class-card: intro-card
-    ..     :shadow: md
+    .. grid-item-card::  Contribute
+        :img-top: _static/group.svg
+        :class-card: intro-card
+        :shadow: md
 
-    ..     Saw a typo in the documentation? Want to improve
-    ..     existing functionalities? The contributing guidelines will guide
-    ..     you through the process of improving pandas.
+        Want to contribute to Lagrangian Diagnostics? The contributing guide details
+        development environment setup, provides guidelines on what information to include
+        in notebooks you create.
 
-    ..     +++
+        +++
 
-    ..     .. button-ref:: development
-    ..         :ref-type: ref
-    ..         :click-parent:
-    ..         :color: secondary
-    ..         :expand:
+        .. button-ref:: contributing
+            :ref-type: ref
+            :click-parent:
+            :color: secondary
+            :expand:
 
-    ..         To the development guide
+            To the contributing guide
+
+
+
+
 
 .. toctree::
   :maxdepth: 1
@@ -90,4 +76,5 @@ Welcome to the documentation of Lagrangian diagnostics, a community for research
    Home <self>
    Tutorials <tutorials>
    Modules <modules>
-   Contributing <contributing/index>
+   Roadmap <roadmap>
+   Contributing <contributing>
