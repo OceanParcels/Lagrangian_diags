@@ -24,28 +24,27 @@ Please contact us in case you would like to contribute via the first option.
 
 1. Get added by project owner to project as collaborator
    
-2. Clone repository
+2. Clone repository and `cd` into the project folder.
    
 3. Create a working branch
--  ```git init``` (initialize GIT on your local machine)
--  ```git branch``` (check branch on your local machine)
--  ```git branch <branch_name>``` (create new working branch "branch_name" on your local machine: dev-<your_initials>)
--  ```git checkout <branch_name>``` (switch into the new working branch)
--  ```git push origin <branch_name>``` (create remote version of working branch)
+-  `git branch` (check branch on your local machine)
+-  `git branch <branch_name>` (create new working branch "branch_name" on your local machine: dev-<your_initials>)
+-  `git checkout <branch_name>` (switch into the new working branch)
+-  `git push origin <branch_name>` (create remote version of working branch)
 
 4. Change existing code or add new code - do not forget to regularly commit your changes!
 - do changes in local working branch
-- ```git add <new_or_changed_file>``` (add files that you changed to stage them for version tracking)
-- ```git commit -m "<short_message_on_change>``` (commit staged changes to update local working branch)
-- ```git push origin <branch_name>``` (update remote version of working branch)
+- `git add <new_or_changed_file>` (add files that you changed to stage them for version tracking)
+- `git commit -m "<short_message_on_change>` (commit staged changes to update local working branch)
+- `git push origin <branch_name>` (update remote version of working branch)
 - repeat as often as required
   
 5. Create a pull request (and potentially [link to issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) if you are solving one)
-- ```git checkout main``` (switch to main branch on local machine)
-- ```git pull main``` (update local main branch to capture potential new features of other contributors)
-- ```git checkout <branch_name>``` (switch back to local working branch)
-- ```git merge main``` (merge latest changes from local main into local working branch, eventually need to solve conflicts if other contributors worked on same files; ensure that the merged changes are commited to the local working branch)
-- ```git push origin <branch_name>``` (update remote working branch with latest changes)
+- `git checkout main` (switch to main branch on local machine)
+- `git pull main` (update local main branch to capture potential new features of other contributors)
+- `git checkout <branch_name>` (switch back to local working branch)
+- `git merge main` (merge latest changes from local main into local working branch, eventually need to solve conflicts if other contributors worked on same files; ensure that the merged changes are commited to the local working branch)
+- `git push origin <branch_name>` (update remote working branch with latest changes)
 - create a pull request to add new features from <branch_name> to main: go to https://github.com/OceanParcels/Lagrangian_diags/tree/main and click on pull request to add your pull request (appears at top of page).  You can mention somebody to review your pull request.
   
 ### Option 2: Fork repository
@@ -62,7 +61,7 @@ All python code should be written following the [PEP8 style guide](https://peps.
 - Parameters
 - Returns
 - Extended description (more detailed information on what the function does, could include mathematical equations)
-- See also (similar diagnostics, alternative methods for same disgnostic)
+- See also (similar diagnostics, alternative methods for same diagnostic)
 - Notes (information on when (not) to use the function) 
 - References (literature where method is introduced)
 - Examples (refer to notebook and give minimum example) 
