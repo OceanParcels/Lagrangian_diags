@@ -6,7 +6,7 @@
 TODO: Add instructions on how to add a new notebook.
 - Things to consider:
   - How to name the notebook
-  - What structure to follow (metadata to include at top, sectioning). Is there a template?
+  - What structure to follow (metadata to include at top (version info, packages installed), sectioning). Is there a template notebook?
   - Whether to include data files in the repository
 ```
 
