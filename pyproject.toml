@@ -1,0 +1,64 @@
+# [tool.ruff.lint]
+# exclude = ["*.ipynb"]
+
+# select = [
+#     "D",  # pydocstyle
+#     "E",  # Error
+#     "F",  # pyflakes
+#     "I",  # isort
+#     "B",  # Bugbear
+#     "UP", # pyupgrade
+#     "LOG", # logging
+#     "ICN", # import conventions
+#     "G", # logging-format
+#     "RUF", # ruff
+#     "ISC001", # single-line-implicit-string-concatenation
+# ]
+
+# ignore = [
+#     # line too long (82 > 79 characters)
+#     "E501",
+#     # ‘from module import *’ used; unable to detect undefined names
+#     "F403",
+#     # Mutable class attributes should be annotated with `typing.ClassVar`
+#     "RUF012",
+#     # Consider `(slice(2), *block)` instead of concatenation
+#     "RUF005",
+#     # Prefer `next(iter(variable.items()))` over single element slice
+#     "RUF015",
+#     # Use `X | Y` in `isinstance` (see https://github.com/home-assistant/core/issues/123850)
+#     "UP038",
+
+#     # TODO: ignore for now (requires more work). Remove ignore once fixed
+#     # Missing docstring in public module
+#     "D100",
+#     # Missing docstring in public class
+#     "D101",
+#     # Missing docstring in public method
+#     "D102",
+#     # Missing docstring in public function
+#     "D103",
+#     # Missing docstring in public package
+#     "D104",
+#     # Missing docstring in magic method
+#     "D105",
+#     # Missing docstring in __init__
+#     "D400",
+#     # First line should be in imperative mood (requires writing of summaries)
+#     "D401",
+#     # First word of the docstring should not be `This`
+#     "D404",
+#     # 1 blank line required between summary line and description (requires writing of summaries)
+#     "D205",
+#     # do not use bare except, specify exception instead
+#     "E722",
+
+
+#     # TODO: These bugbear issues are to be resolved
+#     "B011", # Do not `assert False`
+#     "B016", # Cannot raise a literal. Did you intend to return it or raise an Exception?
+#     "B904", # Within an `except` clause, raise exceptions
+# ]
+
+# [tool.ruff.lint.pydocstyle]
+# convention = "numpy"

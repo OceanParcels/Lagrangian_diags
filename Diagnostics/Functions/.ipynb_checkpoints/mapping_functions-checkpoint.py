@@ -43,4 +43,3 @@ def haversine(Δlat, Δlon, lat, radius=None):
     c = 2 * np.arctan2(np.sqrt(a), np.sqrt(1 - a)) # great circle distance
     d = radius * c
     return d
-

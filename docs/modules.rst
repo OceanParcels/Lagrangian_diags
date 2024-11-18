@@ -10,4 +10,3 @@ mapping functions
 ~~~~~~~~~~~~~~~~~
 .. automodule:: Diagnostics.Functions.mapping_functions
     :members:
-
