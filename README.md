@@ -1,7 +1,15 @@
-# Lagrangian_diags
+<p align="center">
+<a href="https://lagrangian-diags.readthedocs.io/en/latest/">
+<img width="200" src="docs/_static/lagrangian-diag-logo.png">
+</a>
+</p>
+
+<h1 align="center">Lagrangian Diags</h1>
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 [![Documentation Status](https://readthedocs.org/projects/lagrangian-diags/badge/?version=latest)](https://lagrangian-diags.readthedocs.io/en/latest/?badge=latest)
+
+---
 
 Side-project lead by Siren and Laura to work on Lagrangian diagnostics.
 This is WORK IN PROGRESS, EVERYONE IS WELCOME TO CONTRIBUTE!
@@ -15,7 +23,7 @@ those diagnostic via python code.
 
 ## Contributing
 
-See our [contributing page](https://lagrangian-diags.readthedocs.io/en/latest/contributing/index.html).
+See our [contributing page](https://lagrangian-diags.readthedocs.io/en/latest/contributing.html).
 
 ## Contributors
 
