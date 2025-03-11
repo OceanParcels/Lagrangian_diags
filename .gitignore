@@ -1,8 +1,9 @@
 # Data
 Simulations/out-*
+docs/_build
 
 # Jupyter Notebook
 .ipynb_checkpoints
 
 *.pyc
-
+.DS_Store

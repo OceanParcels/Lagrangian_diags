@@ -18,10 +18,10 @@ def compute_ftle(x0, y0, x1, y1, Td):
     Parameters
     ----------
     x0: meshgrid of initial longitude points
-    y0: meshgrid of initial latitude points 
+    y0: meshgrid of initial latitude points
     x1: meshgrid of final longitude points
-    y1: meshgrid of final latitude points 
-    Td : number of days between inital and final timestamps 
+    y1: meshgrid of final latitude points
+    Td : number of days between inital and final timestamps
 
     Returns
     -------

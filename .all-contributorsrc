@@ -1,7 +1,5 @@
 {
-  "files": [
-    "README.md"
-  ],
+  "files": ["README.md", "docs/contributing.md"],
   "imageSize": 100,
   "commit": false,
   "commitType": "docs",
@@ -12,38 +10,28 @@
       "name": "Laura Gomez Navarro",
       "avatar_url": "https://avatars.githubusercontent.com/u/20359692?v=4",
       "profile": "https://github.com/LauraGomezNavarro",
-      "contributions": [
-        "code"
-      ]
+      "contributions": ["code"]
     },
     {
       "login": "jimena-medinarubio",
       "name": "Jimena Medina",
       "avatar_url": "https://avatars.githubusercontent.com/u/101462540?v=4",
       "profile": "https://github.com/jimena-medinarubio",
-      "contributions": [
-        "code"
-      ]
+      "contributions": ["code"]
     },
     {
       "login": "sruehs",
       "name": "sruehs",
       "avatar_url": "https://avatars.githubusercontent.com/u/33282992?v=4",
       "profile": "https://github.com/sruehs",
-      "contributions": [
-        "ideas",
-        "code",
-        "projectManagement"
-      ]
+      "contributions": ["ideas", "code", "projectManagement"]
     },
     {
       "login": "dicaearchus",
       "name": "Bas Altena",
       "avatar_url": "https://avatars.githubusercontent.com/u/64000582?v=4",
       "profile": "https://www.uu.nl/staff/BAltena",
-      "contributions": [
-        "code"
-      ]
+      "contributions": ["code"]
     }
   ],
   "contributorsPerLine": 7,
