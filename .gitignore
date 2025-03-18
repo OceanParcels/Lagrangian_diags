@@ -1,5 +1,8 @@
 # Data
 Simulations/out-*
+/data
+
+# Docs
 docs/_build
 
 # Jupyter Notebook

@@ -1,6 +1,13 @@
 Tutorials
 =========
 
+General
+-------
+.. nbgallery::
+   :name: tutorial-ftle
+
+   tutorials/analysis-cookbook.ipynb
+
 Finite-Time Lyapunov Exponent
 -----------------------------
 .. nbgallery::
