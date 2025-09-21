@@ -1,0 +1,16 @@
+name: lagrangian_diags
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - shapely
+  - scikit-learn
+  - tqdm
+  - cartopy
+  - cmocean
+  - matplotlib
+  - netcdf4
+  - numpy
+  - pandas
+  - scipy
+  - xarray

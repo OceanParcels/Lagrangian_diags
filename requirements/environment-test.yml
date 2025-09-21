@@ -1,0 +1,7 @@
+# Additional requirements for testing
+name: lagrangian_diags
+channels:
+  - conda-forge
+dependencies:
+  - pytest
+  - nbval
