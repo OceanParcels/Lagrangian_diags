@@ -4,7 +4,7 @@ Tutorials
 General
 -------
 .. nbgallery::
-   :name: tutorial-ftle
+   :name: tutorial-analysis
 
    tutorials/analysis-cookbook.ipynb
 
@@ -32,7 +32,7 @@ Flock distance methods
    tutorials/flock_diagnostics.ipynb
 
 Spatial Distributions and Clustering methods
-----------------------
+--------------------------------------------
 .. nbgallery::
    :name: tutorial-clustering
 
@@ -44,5 +44,6 @@ Needs work
 ----------------------
 .. nbgallery::
    :name: tutorial-wip
+
    tutorials/GKDE_method02.ipynb
    tutorials/hex_labelling_demo.ipynb
