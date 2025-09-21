@@ -33,3 +33,13 @@ Flock distance methods
    tutorials/center_of_mass_dispersion_method01
    tutorials/center_of_mass_displacement_method01
    tutorials/mediod_method01
+   tutorials/flock_diagnostics.ipynb
+
+Spatial Distributions and Clustering methods
+----------------------
+.. nbgallery::
+   :name: tutorial-clustering
+
+   tutorials/2DHistogram_method01.ipynb
+   tutorials/hex_labelling_demo.ipynb
+   tutorials/clustering.ipynb
