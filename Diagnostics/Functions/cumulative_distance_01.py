@@ -1,5 +1,5 @@
 import numpy as np
-from math import sin, cos, sqrt, atan2, radians, pi
+import math
 
 def dist_km(lona, lonb, lata, latb):
     """
@@ -10,16 +10,16 @@ def dist_km(lona, lonb, lata, latb):
 
     R = 6373.0     # approximate radius of earth in km
 
-    lat1 = radians(lata)
-    lon1 = radians(lona)
-    lat2 = radians(latb)
-    lon2 = radians(lonb)
+    lat1 = math.radians(lata)
+    lon1 = math.radians(lona)
+    lat2 = math.radians(latb)
+    lon2 = math.radians(lonb)
 
     dlon = lon2 - lon1
     dlat = lat2 - lat1
 
-    a = sin(dlat / 2)**2 + cos(lat1) * cos(lat2) * sin(dlon / 2)**2
-    c = 2 * atan2(sqrt(a), sqrt(1 - a))
+    a = math.sin(dlat / 2)**2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon / 2)**2
+    c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
 
     distance = R * c
 
