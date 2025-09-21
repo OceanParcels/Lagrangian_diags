@@ -30,9 +30,6 @@ Flock distance methods
 
    tutorials/absolute_distance_method01
    tutorials/cumulative_distance_method01
-   tutorials/center_of_mass_dispersion_method01
-   tutorials/center_of_mass_displacement_method01
-   tutorials/mediod_method01
    tutorials/flock_diagnostics.ipynb
 
 Spatial Distributions and Clustering methods
