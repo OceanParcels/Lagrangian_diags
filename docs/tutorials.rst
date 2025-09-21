@@ -21,7 +21,6 @@ Gaussian Kernel Density Estimation methods
    :name: tutorial-gkde
 
    tutorials/GKDE_method01.ipynb
-   tutorials/GKDE_method02.ipynb
 
 Flock distance methods
 ----------------------
@@ -30,9 +29,6 @@ Flock distance methods
 
    tutorials/absolute_distance_method01
    tutorials/cumulative_distance_method01
-   tutorials/center_of_mass_dispersion_method01
-   tutorials/center_of_mass_displacement_method01
-   tutorials/mediod_method01
    tutorials/flock_diagnostics.ipynb
 
 Spatial Distributions and Clustering methods
@@ -41,5 +37,12 @@ Spatial Distributions and Clustering methods
    :name: tutorial-clustering
 
    tutorials/2DHistogram_method01.ipynb
-   tutorials/hex_labelling_demo.ipynb
    tutorials/clustering.ipynb
+
+
+Needs work
+----------------------
+.. nbgallery::
+   :name: tutorial-wip
+   tutorials/GKDE_method02.ipynb
+   tutorials/hex_labelling_demo.ipynb
