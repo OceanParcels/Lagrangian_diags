@@ -14,3 +14,4 @@ dependencies:
   - pandas
   - scipy
   - xarray
+  - gdal
