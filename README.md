@@ -11,7 +11,7 @@
 
 ---
 
-Side-project founded by [Siren Ruhs](https://github.com/sruehs) and [Laura Gomez Navarro](https://github.com/LauraGomezNavarro) to work on Lagrangian diagnostics and continued by the [UU Ocean Parcels team](https://github.com/OceanParcels/UtrechtTeam.git). 
+Side-project founded by [Siren Ruhs](https://github.com/sruehs) and [Laura Gomez Navarro](https://github.com/LauraGomezNavarro) to work on Lagrangian diagnostics and continued by the [UU Ocean Parcels team](https://oceanparcels.org/utrechtteam). 
 
 ## Goal of the project
 
