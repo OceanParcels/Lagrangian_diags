@@ -11,19 +11,18 @@
 
 ---
 
-Side-project lead by Siren and Laura to work on Lagrangian diagnostics.
-This is WORK IN PROGRESS, EVERYONE IS WELCOME TO CONTRIBUTE!
+Side-project founded by [Siren Ruhs](https://github.com/sruehs) and [Laura Gomez Navarro](https://github.com/LauraGomezNavarro) to work on Lagrangian diagnostics and continued by the [UU Ocean Parcels team](https://oceanparcels.org/utrechtteam). 
 
 ## Goal of the project
 
-Starting from the general question how to quantify differences in Lagrangian statistics between
-various flow fields, we collect Lagrangian diagnostics commonly used (have a look at this Mindmap and feel free to add
-new info: https://www.mindmeister.com/map/2233459860?t=C9g9yYis4P), and test and compare different methods used to derive
-those diagnostic via python code.
+Applying Lagrangian methods to geophysical fluid dynamics problems often leads to the question of how to quantify differences in Lagrangian statistics between various flow fields. In this project, we provide the code to calculate different Lagrangian diagnostics and examples applied to the same dataset for comparison. [See this mindmap](https://app.xmind.com/share/uWlm25yP) for a general view of Lagrangian diagnostics.
+
+## Project website
+[Here](https://lagrangian-diags.readthedocs.io/en/latest/) is the project website, which contains all the documentation and direct access to tutorials.
 
 ## Contributing
 
-See our [contributing page](https://lagrangian-diags.readthedocs.io/en/latest/contributing.html).
+We are an inclusive community where all levels of experience are valued. See our [contributing page](https://lagrangian-diags.readthedocs.io/en/latest/contributing.html).
 
 ## Contributors
 
