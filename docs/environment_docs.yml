@@ -17,7 +17,7 @@ dependencies:
   - ipython
   - numpydoc
   - nbsphinx
-  - sphinx
+  - sphinx>6,<8
   - pandoc
   - pydata-sphinx-theme
   - sphinx-design
