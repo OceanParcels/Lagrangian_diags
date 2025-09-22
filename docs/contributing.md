@@ -22,7 +22,7 @@ If you have difficulty running the notebooks/are getting errors from certain pac
 
 #### Online via Binder
 
-The notebooks are available at [Binder](https://mybinder.org/badge_logo.svg) using [this link](https://mybinder.org/v2/gh/OceanParcels/Lagrangian_diags/main?labpath=docs%2Ftutorials%2Fanalysis-cookbook.ipynb)
+The notebooks are available at ![Binder](https://mybinder.org/badge_logo.svg) using [this link](https://mybinder.org/v2/gh/OceanParcels/Lagrangian_diags/main?labpath=docs%2Ftutorials%2Fanalysis-cookbook.ipynb)
 
 ## Development workflow: Adding a new notebook
 

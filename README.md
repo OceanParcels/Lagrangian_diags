@@ -6,18 +6,20 @@
 
 <h1 align="center">Lagrangian Diags</h1>
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/OceanParcels/Lagrangian_diags/main?labpath=docs%2Ftutorials%2Fanalysis-cookbook.ipynb)
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 [![Documentation Status](https://readthedocs.org/projects/lagrangian-diags/badge/?version=latest)](https://lagrangian-diags.readthedocs.io/en/latest/?badge=latest)
 
 ---
 
-Side-project founded by [Siren Ruhs](https://github.com/sruehs) and [Laura Gomez Navarro](https://github.com/LauraGomezNavarro) to work on Lagrangian diagnostics and continued by the [UU Ocean Parcels team](https://oceanparcels.org/utrechtteam). 
+Side-project founded by [Siren Ruhs](https://github.com/sruehs) and [Laura Gomez Navarro](https://github.com/LauraGomezNavarro) to work on Lagrangian diagnostics and continued by the [UU Ocean Parcels team](https://oceanparcels.org/utrechtteam).
 
 ## Goal of the project
 
 Applying Lagrangian methods to geophysical fluid dynamics problems often leads to the question of how to quantify differences in Lagrangian statistics between various flow fields. In this project, we provide the code to calculate different Lagrangian diagnostics and examples applied to the same dataset for comparison. [See this mindmap](https://app.xmind.com/share/uWlm25yP) for a general view of Lagrangian diagnostics.
 
 ## Project website
+
 [Here](https://lagrangian-diags.readthedocs.io/en/latest/) is the project website, which contains all the documentation and direct access to tutorials.
 
 ## Contributing
