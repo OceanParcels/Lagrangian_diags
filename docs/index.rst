@@ -1,8 +1,9 @@
 Lagrangian Diagnostics
 ======================
 
-.. note::
-    TODO: Insert short paragraph here detailing the motivation behind the project, and the goals of the project.
+Side-project founded by `Siren Ruhs <https://github.com/sruehs>`__ and `Laura Gomez Navarro <https://github.com/LauraGomezNavarro>`__ to work on Lagrangian diagnostics and continued by the `UU Ocean Parcels team <https://oceanparcels.org/utrechtteam>`__.
+
+Applying Lagrangian methods to geophysical fluid dynamics problems often leads to the question of how to quantify differences in Lagrangian statistics between various flow fields. In this project, we provide the code to calculate different Lagrangian diagnostics and examples applied to the same dataset for comparison. `See this mindmap <https://app.xmind.com/share/uWlm25yP>`__ for a general view of Lagrangian diagnostics.
 
 .. grid:: 1 2 2 2
     :gutter: 4
