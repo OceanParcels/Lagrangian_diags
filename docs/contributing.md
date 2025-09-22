@@ -62,10 +62,10 @@ If you have write access to the Lagrangian Diags repository, you don't have to c
 ```
 
 ```{note}
-If you added a dependency, make sure to re-export the lock file of the conda environment (only do this if you're on Mac/Linux - if on Windows ask for help).
+If you added a dependency (only do this if you're on Mac/Linux - if on Windows ask for help), make sure to do the following:
 
-- `conda env export > requirements/environment-freeze.yml`
-- `conda env export > .binder/environment.yml` <- so that the binder environment builds from the lock file
+- re-export the lock file of the conda environment `conda env export > requirements/environment-freeze.yml`
+- list the dependencies added in `requirements/environment.yml` and `.binder/environment.yml`
 ```
 
 ### OPTIONAL: Install documentation dependencies
