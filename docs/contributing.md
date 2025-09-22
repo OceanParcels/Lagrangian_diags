@@ -6,15 +6,26 @@ You are welcome to contribute by improving the code for already existing methods
 
 If the provided example particle trajectory datasets or simulations are inadequate for your diagnostic, please inform us so we can update or expand the datasets.
 
-### Adding a notebook
+### Running the notebooks
 
-```{note}
-TODO: Add instructions on how to add a new notebook.
-- Things to consider:
-  - How to name the notebook
-  - What structure to follow (metadata to include at top (version info, packages installed), sectioning). Is there a template notebook?
-  - Whether to include data files in the repository
-```
+#### Locally
+
+- Clone the git repository
+  - `cd` to a location in your filesystem
+  - `git clone https://github.com/OceanParcels/Lagrangian_diags.git`
+- Install and activate the conda environment:
+  - `conda env create -n lagrangian_diags -f requirements/environment.yml`
+  - `conda activate lagrangian_diags`
+  - `jupyter lab`
+
+<!-- #### Online via Binder -->
+
+### Adding a new notebook
+
+- Follow the instructions for running the notebooks locally
+- Add your notebook
+- Make sure it runs top to bottom (with our provided environment)
+- submit a PR
 
 ## Development workflow
 
@@ -62,6 +73,7 @@ Then you can build the documentation with:
 sphinx-autobuild docs docs/_build
 ```
 
+<!-- TODO: Uncomment section on style guide and pre-commit once its working properly and run against everything
 ### Style guide and pre-commit tooling
 
 This project has automated workflows to help with code quality and adhering to Python style conventions (this tooling is detailed in the `.pre-commit-config.yaml` file). To use this tooling locally (optional, as this is already run automatically in the cloud), you will need to install the pre-commit package and then install the hooks. You can do this by running the following commands:
@@ -86,7 +98,7 @@ All python code should be written following the [PEP8 style guide](https://peps.
 - Notes (information on when (not) to use the function)
 - References (literature where method is introduced)
 - Examples (refer to notebook and give minimum example)
-```
+``` -->
 
 ## Credits
 
