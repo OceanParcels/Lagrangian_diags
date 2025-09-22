@@ -1,4 +1,4 @@
-# Contributing
+# Getting Started
 
 ## Project structure
 
@@ -20,7 +20,9 @@ You are welcome to contribute by improving the code for already existing methods
 If you have difficulty running the notebooks/are getting errors from certain packages - it might be that the versions of the packages have been updated since the notebook was made. You can try instead to install an environment by doing `conda env create -n lagrangian_diags -f requirements/environment-freeze.yml`
 ```
 
-<!-- #### Online via Binder -->
+#### Online via Binder
+
+The notebooks are available at [Binder](https://mybinder.org/badge_logo.svg) using [this link](https://mybinder.org/v2/gh/OceanParcels/Lagrangian_diags/main?labpath=docs%2Ftutorials%2Fanalysis-cookbook.ipynb)
 
 ## Development workflow: Adding a new notebook
 
@@ -57,6 +59,13 @@ git push -u origin <branch_name>
 
 ```{note}
 If you have write access to the Lagrangian Diags repository, you don't have to create a fork. You just need to clone the repository and create a working branch. Just make sure that your working branch has a good naming so that others are aware of its contents (e.g., `<your_initials>-dispersion`).
+```
+
+```{note}
+If you added a dependency, make sure to re-export the lock file of the conda environment (only do this if you're on Mac/Linux - if on Windows ask for help).
+
+- `conda env export > requirements/environment-freeze.yml`
+- `conda env export > .binder/environment.yml` <- so that the binder environment builds from the lock file
 ```
 
 ### OPTIONAL: Install documentation dependencies
