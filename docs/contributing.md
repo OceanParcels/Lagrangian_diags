@@ -1,22 +1,30 @@
-# Contributing
+# Getting Started
 
 ## Project structure
 
-You are welcome to contribute by improving the code for already existing methods or by adding new code for additional methods and diagnostics. In general, we aim to provide the code for the different methods as functions (see here: [./Diagnostics/Functions](https://github.com/OceanParcels/Lagrangian_diags/tree/main/Diagnostics/Functions)), that are then applied and explained in jupyter notebooks (see here: [./docs/tutorials/](https://github.com/OceanParcels/Lagrangian_diags/tree/main/docs/tutorials/)) by making use of the output of a set of very basic example particle simulations (to be found here: [./Simulations/](https://github.com/OceanParcels/Lagrangian_diags/tree/main/Simulations)). Please let us know in case the particle trajectory sets/simulations are inadequate for your diagnostic, so that we can adjust or expand our data sets.
+You are welcome to contribute by improving the code for already existing methods or by adding new code for additional methods and diagnostics. In general, we aim to provide stand alone tutorial notebooks (in [./docs/tutorials/](https://github.com/OceanParcels/Lagrangian_diags/tree/main/docs/tutorials/)) by making use of the output of a set of very basic example particle simulations (to be found here: [./Simulations/](https://github.com/OceanParcels/Lagrangian_diags/tree/main/Simulations)). If the simulation data is not adequate for your analysis, you can generate your own using xarray or download it in the notebook.
 
-If the provided example particle trajectory datasets or simulations are inadequate for your diagnostic, please inform us so we can update or expand the datasets.
+### Running the notebooks
 
-### Adding a notebook
+#### Locally
+
+- Clone the git repository
+  - `cd` to a location in your filesystem
+  - `git clone https://github.com/OceanParcels/Lagrangian_diags.git`
+- Install and activate the conda environment:
+  - `conda env create -n lagrangian_diags -f requirements/environment.yml`
+  - `conda activate lagrangian_diags`
+  - `jupyter lab`
 
 ```{note}
-TODO: Add instructions on how to add a new notebook.
-- Things to consider:
-  - How to name the notebook
-  - What structure to follow (metadata to include at top (version info, packages installed), sectioning). Is there a template notebook?
-  - Whether to include data files in the repository
+If you have difficulty running the notebooks/are getting errors from certain packages - it might be that the versions of the packages have been updated since the notebook was made. You can try instead to install an environment by doing `conda env create -n lagrangian_diags -f requirements/environment-freeze.yml`
 ```
 
-## Development workflow
+#### Online via Binder
+
+The notebooks are available using [Binder](https://mybinder.org/) at [this link](https://mybinder.org/v2/gh/OceanParcels/Lagrangian_diags/main?labpath=docs%2Ftutorials%2Fanalysis-cookbook.ipynb)
+
+## Development workflow: Adding a new notebook
 
 To get started contributing to Lagrangian Diags:
 
@@ -38,6 +46,11 @@ git checkout <branch_name>
 
 4. Change existing code or add new code - do not forget to regularly commit your changes!
 
+- Follow the instructions for running the notebooks locally
+- Add your notebook
+- Make sure it runs top to bottom (with our provided environment)
+- commit your changes
+
 5. Push your changes and make a pull request
 
 ```
@@ -46,6 +59,13 @@ git push -u origin <branch_name>
 
 ```{note}
 If you have write access to the Lagrangian Diags repository, you don't have to create a fork. You just need to clone the repository and create a working branch. Just make sure that your working branch has a good naming so that others are aware of its contents (e.g., `<your_initials>-dispersion`).
+```
+
+```{note}
+If you added a dependency, make sure to re-export the lock file of the conda environment (only do this if you're on Mac/Linux - if on Windows ask for help).
+
+- `conda env export > requirements/environment-freeze.yml`
+- `conda env export > .binder/environment.yml` <- so that the binder environment builds from the lock file
 ```
 
 ### OPTIONAL: Install documentation dependencies
@@ -62,6 +82,7 @@ Then you can build the documentation with:
 sphinx-autobuild docs docs/_build
 ```
 
+<!-- TODO: Uncomment section on style guide and pre-commit once its working properly and run against everything
 ### Style guide and pre-commit tooling
 
 This project has automated workflows to help with code quality and adhering to Python style conventions (this tooling is detailed in the `.pre-commit-config.yaml` file). To use this tooling locally (optional, as this is already run automatically in the cloud), you will need to install the pre-commit package and then install the hooks. You can do this by running the following commands:
@@ -86,7 +107,7 @@ All python code should be written following the [PEP8 style guide](https://peps.
 - Notes (information on when (not) to use the function)
 - References (literature where method is introduced)
 - Examples (refer to notebook and give minimum example)
-```
+``` -->
 
 ## Credits
 

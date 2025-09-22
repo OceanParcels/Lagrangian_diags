@@ -40,7 +40,7 @@ Spatial Distributions and Clustering methods
    tutorials/clustering.ipynb
 
 
-Needs work
+🚧 Needs work
 ----------------------
 .. nbgallery::
    :name: tutorial-wip
