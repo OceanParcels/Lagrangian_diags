@@ -15,4 +15,3 @@ dependencies:
   - scipy
   - xarray
   - gdal
-  - jupyterlab
