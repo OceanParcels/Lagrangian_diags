@@ -18,6 +18,10 @@ If the provided example particle trajectory datasets or simulations are inadequa
   - `conda activate lagrangian_diags`
   - `jupyter lab`
 
+```{note}
+If you have difficulty running the notebooks/are getting errors from certain packages - it might be that the versions of the packages have been updated since the notebook was made. You can try instead to install an environment by doing `conda env create -n lagrangian_diags -f requirements/environment-freeze.yml`
+```
+
 <!-- #### Online via Binder -->
 
 ### Adding a new notebook
