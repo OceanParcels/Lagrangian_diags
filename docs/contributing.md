@@ -2,9 +2,7 @@
 
 ## Project structure
 
-You are welcome to contribute by improving the code for already existing methods or by adding new code for additional methods and diagnostics. In general, we aim to provide the code for the different methods as functions (see here: [./Diagnostics/Functions](https://github.com/OceanParcels/Lagrangian_diags/tree/main/Diagnostics/Functions)), that are then applied and explained in jupyter notebooks (see here: [./docs/tutorials/](https://github.com/OceanParcels/Lagrangian_diags/tree/main/docs/tutorials/)) by making use of the output of a set of very basic example particle simulations (to be found here: [./Simulations/](https://github.com/OceanParcels/Lagrangian_diags/tree/main/Simulations)). Please let us know in case the particle trajectory sets/simulations are inadequate for your diagnostic, so that we can adjust or expand our data sets.
-
-If the provided example particle trajectory datasets or simulations are inadequate for your diagnostic, please inform us so we can update or expand the datasets.
+You are welcome to contribute by improving the code for already existing methods or by adding new code for additional methods and diagnostics. In general, we aim to provide stand alone tutorial notebooks (in [./docs/tutorials/](https://github.com/OceanParcels/Lagrangian_diags/tree/main/docs/tutorials/)) by making use of the output of a set of very basic example particle simulations (to be found here: [./Simulations/](https://github.com/OceanParcels/Lagrangian_diags/tree/main/Simulations)). If the simulation data is not adequate for your analysis, you can generate your own using xarray or download it in the notebook.
 
 ### Running the notebooks
 
@@ -24,14 +22,7 @@ If you have difficulty running the notebooks/are getting errors from certain pac
 
 <!-- #### Online via Binder -->
 
-### Adding a new notebook
-
-- Follow the instructions for running the notebooks locally
-- Add your notebook
-- Make sure it runs top to bottom (with our provided environment)
-- submit a PR
-
-## Development workflow
+## Development workflow: Adding a new notebook
 
 To get started contributing to Lagrangian Diags:
 
@@ -52,6 +43,11 @@ git checkout <branch_name>
 ```
 
 4. Change existing code or add new code - do not forget to regularly commit your changes!
+
+- Follow the instructions for running the notebooks locally
+- Add your notebook
+- Make sure it runs top to bottom (with our provided environment)
+- commit your changes
 
 5. Push your changes and make a pull request
 
