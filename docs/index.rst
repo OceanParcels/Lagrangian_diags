@@ -51,6 +51,6 @@ Applying Lagrangian methods to geophysical fluid dynamics problems often leads t
 
    Home <self>
    Tutorials <tutorials>
+   Getting Started <contributing>
    Modules <modules>
    Roadmap <roadmap>
-   Contributing <contributing>
