@@ -37,7 +37,7 @@ Spatial Distributions and Clustering methods
    :name: tutorial-clustering
 
    tutorials/2DHistogram_method01.ipynb
-   tutorials/clustering.ipynb
+   tutorials/clustering_notebook.ipynb
 
 
 🚧 Needs work
