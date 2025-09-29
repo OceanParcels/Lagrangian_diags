@@ -125,3 +125,11 @@ html_context = {
 html_css_files = [
     "custom.css",
 ]
+
+
+linkcheck_ignore = [
+    r"https://doi.org/10.1029/2020GL089874",  # 403 forbidden
+    r"https://doi.org/10.1029/2023MS003902",  # 403 forbidden
+    r"https://doi.org/10.1029/2023GL107900",  # 403 forbidden
+    r"https://doi.org/10.1145/304181.304187",  # 403 forbidden
+]
