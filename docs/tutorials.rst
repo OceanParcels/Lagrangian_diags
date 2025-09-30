@@ -1,6 +1,8 @@
 Tutorials
 =========
 
+You can browse the notebooks below, clone the repository and browse the notebooks locally, or you can [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/OceanParcels/Lagrangian_diags/main?labpath=docs%2Ftutorials%2Fanalysis-cookbook.ipynb) to open them in a cloud environment.
+
 General
 -------
 .. nbgallery::
