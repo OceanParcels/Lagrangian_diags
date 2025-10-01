@@ -14,22 +14,38 @@ General
 
    tutorials/analysis-cookbook.ipynb
 
+
+Spatial Distributions
+---------------------
+
+Histograms and Clustering
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. nbgallery::
+   :name: tutorial-clustering
+
+   tutorials/2DHistogram_method01.ipynb
+   tutorials/clustering_notebook.ipynb
+
+
 Finite-Time Lyapunov Exponent
------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. nbgallery::
    :name: tutorial-ftle
 
    tutorials/FTLE_method.ipynb
 
 Gaussian Kernel Density Estimation methods
-------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. nbgallery::
    :name: tutorial-gkde
 
    tutorials/GKDE_method01.ipynb
 
-Flock distance methods
-----------------------
+
+Distance methods
+----------------
+
 .. nbgallery::
    :name: tutorial-distance
 
@@ -37,13 +53,7 @@ Flock distance methods
    tutorials/cumulative_distance_method01
    tutorials/flock_diagnostics.ipynb
 
-Spatial Distributions and Clustering methods
---------------------------------------------
-.. nbgallery::
-   :name: tutorial-clustering
 
-   tutorials/2DHistogram_method01.ipynb
-   tutorials/clustering_notebook.ipynb
 
 
 🚧 Needs work
